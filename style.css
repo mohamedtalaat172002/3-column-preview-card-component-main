@@ -40,7 +40,7 @@ text-align: center;
 display: flex;
 text-align: start;  
 }
-.innercontainer{
+.innercontainer1, .innercontainer2 , .innercontainer3{
     justify-content: center;
     margin-top: 2rem;
     align-items: center;
@@ -48,16 +48,55 @@ text-align: start;
     border-radius: 35px;
     width: 170px;
 }
-.innercontainer h3{
+
+/*the hover part*/
+/* first*/
+.innercontainer1:hover h3{  
+    color: white;
+}
+.innercontainer1:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: solid 1.5px white;
+}
+.innercontainer1 h3{
+    color:  hsl(31, 77%, 52%);
+}
+/* second*/
+.innercontainer2:hover h3{  
+    color: white;
+}
+.innercontainer2:hover{
+    background-color:  hsl(184, 100%, 22%);
+    border: solid 1.5px white;
+}
+.innercontainer2 h3{
+    color:   hsl(184, 100%, 22%);
+}
+/*third*/
+.innercontainer3:hover h3{  
+    color: white;
+}
+.innercontainer3:hover{
+    background-color:  hsl(179, 100%, 13%);;
+    border: solid 1.5px white;
+}
+.innercontainer3 h3{
+    color:    hsl(179, 100%, 13%);;
+}
+
+
+
+
+
+
+
+
+h3{
     text-align: center;
 }
 h1{
     color: white;
 }
-.innercontainer :hover{
-   background-color: hsl(31, 77%, 52%);
-}
- 
 
 @media(max-width:1000px){
     .columns{
